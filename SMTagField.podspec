@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/paulsmitz/SMTagField.git"
   s.author                = { "https://github.com/paulsmitz/SMTagField.git" }
   s.source                = { :git => "https://github.com/paulsmitz/SMTagField.git", :tag => "v1.2"}
-  s.source_files          = './*.{h,m}'
-  s.public_header_files   = './*.h'
+  s.source_files          = '.{h,m}'
+  s.public_header_files   = '.h'
   s.platform              = :ios
   s.requires_arc          = true
   s.ios.deployment_target = '7.0'
